@@ -23,7 +23,7 @@ dependencies {
 
 *	If using a development tool that doesn't support the `gradle`, but you can use the `aar` file, we've provided you with a play-services-base dependency library file, you can download the files and add them to your project.
 
-		If using a development tool that doesn't support to use the `aar` file, the `play-services-base` dependent library cannot be used in this case. Simply import the `installreferrer_xxx.jar` file, unzip the `XhanceSdk_xxx.aar` ,then rename the `classes.jar` and import it into the project. Finally copy the following codes into  `AndroidManifest.xml` file of your project.
+*	If using a development tool that doesn't support to use the `aar` file, the `play-services-base` dependent library cannot be used in this case. Simply import the `installreferrer_xxx.jar` file, unzip the `XhanceSdk_xxx.aar` ,then rename the `classes.jar` and import it into the project. Finally copy the following codes into  `AndroidManifest.xml` file of your project.
 
 ```xml
 <uses-permission android:name="android.permission.INTERNET"/>
